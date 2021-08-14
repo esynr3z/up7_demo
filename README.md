@@ -1,20 +1,23 @@
 # uP7 logging library demo on STM32 USB-CDC device
 
-Inspired by the article on Habr.
+Inspired by the article on [Habr](https://habr.com/ru/post/570720/).
+
+![](doc/trace.png)
+![](doc/plots.png)
 
 Software required:
 
-* STM32 Cube MX
-* Cmake 3.8+
-* ARM GCC compiler
-* GCC compiler for Linux, or Visual Studio 16 2019 for Windows
-* mingw32-makefile (only for Windows)
-* Baical server executable
-* uP7 library archive
+* [STM32 Cube MX](https://www.st.com/en/development-tools/stm32cubemx.html)
+* [Cmake 3.8+](https://cmake.org/)
+* [ARM GCC compiler](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm)
+* GCC compiler for Linux, or [Visual Studio 16 2019](https://visualstudio.microsoft.com/ru/vs/) for Windows
+* [mingw32-makefile](https://sourceforge.net/projects/mingw/files/MinGW/Extension/make/mingw32-make-3.80-3/) (only for Windows)
+* [Baical server executable](http://baical.net/downloads.html)
+* [uP7 library archive](http://baical.net/downloads.html)
 
 Hardware required:
 
-* WeAct STM32F411 MiniF4 ("blackpill")
+* [WeAct STM32F411 MiniF4](https://github.com/WeActTC/MiniSTM32F4x1) ("blackpill")
 
 ## Project structure
 
@@ -61,3 +64,4 @@ Hardware required:
     ```
 
 * If all is good you will see online client in the Baical main window
+    ![](doc/baical.png)
