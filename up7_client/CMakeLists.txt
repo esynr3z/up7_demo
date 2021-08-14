@@ -42,7 +42,7 @@ target_link_libraries(${PROJECT_NAME}.elf stm32 up7)
 #-- Custom commands ------------------------------------------------------------
 add_custom_command(OUTPUT ${UP7_PREPROC_H} ${UP7_ID_H}
     WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
-    COMMAND ../up7_utils/build/uP7preProcessor/Debug/uP7preProcessor ${UP7_PATH}/preproc/up7_preproc.xml ./ ${UP7_PATH}/preproc
+    COMMAND ../up7_utils/build/uP7preProcessor/uP7preProcessor ${UP7_PATH}/preproc/up7_preproc.xml ./ ${UP7_PATH}/preproc
     VERBATIM
 )
 
